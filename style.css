@@ -1,0 +1,99 @@
+body{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	}
+	
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	padding: 10px 100px;
+	box-sizing: border-box;
+	transition: .5s;
+}
+
+nav .logo{
+	float: left;
+    margin: auto;
+}
+nav .logo img {
+	height: 80px;
+	transition: .5s;
+}
+
+nav ul {
+	float: right;
+	margin: auto;
+	List-style: none;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li a {
+	line-height: 80px;
+	color: #262626;
+	padding: 5px 20px;
+	text-decoration: none;
+	text-transform: none;
+	transition: .5s;
+}
+header{
+	height: px;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+    background: #424242;
+}
+
+#banner {
+	background: url('BDiana.jpg') no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 100px;
+}
+
+#content {
+	text-align: center;
+	width: 100%;
+	position: relative;
+	top: 1000px;
+	background: #FFFFFF;
+	height: auto;
+}
+
+.btn {
+	border-radius: 9px;
+	font-family: 'Oswald', sans-serif;
+	color: #036A81;
+	font-size: 135%;
+	padding: 10px 20px;
+	border: solid #036A81 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.btn:hover {
+	color: #BDBDBD;
+	border: solid #fff 3px; 
+}
+
+p {
+	font-size: 160%;
+	line-height: 210%;
+	text-align: justify;
+	margin: 100px 200px auto;
+	font-family: sans-serif;
+}
+
+.video {
+	margin: 300px;
+	float: right;
+}
+
+
